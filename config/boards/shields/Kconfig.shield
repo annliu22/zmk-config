@@ -1,0 +1,2 @@
+config SHIELD_PROKEY8
+    def_bool $(shield_list_contains, prokey8)
