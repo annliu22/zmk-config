@@ -1,6 +1,6 @@
 if SHIELD_PROKEY8
 
-config ZMK_KEYBOAR D_NAME
+config ZMK_KEYBOARD_NAME
     default "prokey8"
 
 endif
