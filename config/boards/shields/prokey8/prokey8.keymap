@@ -21,10 +21,10 @@
 // |     |       |  L  | CMD |
 // ---------------------------
             bindings = <
-    &kp S  &kp LSHFT &kp B     &kp E
+    &kp S  &sk LSHFT &kp B     &kp E
     &kp Z  &kp LALT  &kp LBKT  &kp RBKT
     &kp V  &kp C     &kp X     &kp D
-                     &kp L     &kp LCMD
+                     &kp L     &sk LCMD
             >;
         };
     };
