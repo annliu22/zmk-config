@@ -1,6 +1,7 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "prokey8.dtsi"
 
+
 &kscan0 {
    col-gpios
    = <&gpio0 3 GPIO_ACTIVE_HIGH>
