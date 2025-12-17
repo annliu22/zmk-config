@@ -15,16 +15,18 @@
 
         default_layer {
 // ---------------------------
-// |  S  | SHIFT |  B  |  E  |
+// |  L  | SHIFT |  B  |  E  |
 // |  Z  |  OPT  |  [  |  ]  |
 // |  V  |   C   |  X  |  D  |
-// |     |       |  L  | CMD |
+// |     |       |  S  | CMD |
 // ---------------------------
+// https://www.reddit.com/r/ProCreate/comments/1it19t6/procreate_keyboard_shortcuts/
+            
             bindings = <
-    &kp S  &kp LSHFT &kp B     &kp E
+    &kp L  &kp LSHFT &kp B     &kp E
     &kp Z  &kp LALT  &kp LBKT  &kp RBKT
     &kp V  &kp C     &kp X     &kp D
-                     &kp L     &kp LCMD
+                     &kp S     &kp LCMD
             >;
         };
     };
