@@ -1,0 +1,8 @@
+file_format: "1"
+id: prokey8
+name: prokey8
+type: shield
+requires: 
+  - nice_nano
+features:
+  - keys
