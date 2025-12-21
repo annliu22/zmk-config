@@ -14,19 +14,33 @@
         compatible = "zmk,keymap";
 
         default_layer {
-// ---------------------------
-// |  L  | SHIFT |  B  |  E  |
-// |  Z  |  OPT  |  [  |  ]  |
-// |  V  |   C   |  X  |  D  |
-// |     |       |  S  | CMD |
-// ---------------------------
-// https://www.reddit.com/r/ProCreate/comments/1it19t6/procreate_keyboard_shortcuts/
+        // ---------------------------
+        // |  L  | SHIFT |  B  |  E  |
+        // |  Z  |  OPT  |  [  |  ]  |
+        // |  V  |   C   |  X  |  D  |
+        // |     |       |  S  | CMD |
+        // ---------------------------
+        // https://www.reddit.com/r/ProCreate/comments/1it19t6/procreate_keyboard_shortcuts/
             
             bindings = <
-    &kp L  &kp LSHFT &kp B     &kp E
-    &kp Z  &kp LALT  &kp LBKT  &kp RBKT
-    &kp V  &kp C     &kp X     &kp D
-                     &kp S     &kp LCMD
+                &mo 1  &kp LSHFT &kp B     &kp E
+                &kp Z  &kp LALT  &kp LBKT  &kp RBKT
+                &kp V  &kp C     &kp X     &kp D
+                                &kp S     &kp LCMD
+            >;
+        };
+
+        bt_layer { // Layer 1
+            
+        // ----------------------------------------------
+        // |      A      |       B       |       C      |
+        // |    &trans   |    &trans     |     &trans   |
+            
+            bindings = <
+                &trans  &bt BT_CLR  &out OUT_BLE     &out OUT_USB
+                &none   &none       &none       &L
+                &none   &none       &none       &none
+                                    &none       &none
             >;
         };
     };
