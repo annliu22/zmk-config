@@ -33,14 +33,14 @@
         bt_layer { // Layer 1
             
         // ----------------------------------------------
-        // |      A      |       B       |       C      |
+        // |      &trans      |       B       |       C      |
         // |    &trans   |    &trans     |     &trans   |
             
             bindings = <
-                &trans  &bt BT_CLR  &out OUT_BLE     &out OUT_USB
-                &none   &none       &none       &L
+                &trans  &bt BT_CLR  &bt BT_NXT     &bt BT_PRV
                 &none   &none       &none       &none
-                                    &none       &none
+                &none   &none       &none       &none
+                                    &none       &L
             >;
         };
     };
