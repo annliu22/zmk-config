@@ -20,3 +20,5 @@
 include:
   - board: nice_nano
     shield: prokey8
+  - board: nice_nano
+    shield: tester_pro_micro
