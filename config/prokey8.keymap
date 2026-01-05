@@ -23,8 +23,8 @@
         // https://www.reddit.com/r/ProCreate/comments/1it19t6/procreate_keyboard_shortcuts/
             
             bindings = <
-                &mo 1  &kp LSHFT &kp B     &kp E
-                &kp Z  &kp LALT  &kp LBKT  &kp RBKT
+                &mo 1  &kp Z &kp B     &kp E
+                &kp LSHFT  &kp LALT  &kp LBKT  &kp RBKT
                 &kp V  &kp C     &kp X     &kp D
                                 &kp S     &kp LCMD
             >;
